@@ -103,7 +103,7 @@ export async function createOrder(data: checkoutFormValues) {
 
     await sendEmail(
       data.email,
-      "Next Pizza / Оплатите заказ #" + order.id,
+      "Sport Shop / Оплатите заказ #" + order.id,
       PayOrderTemplate({
         orderId: order.id,
         totalAmount: order.totalAmount,
@@ -184,7 +184,7 @@ export async function registerUser(body: Prisma.UserCreateInput) {
 
     await sendEmail(
       createdUser.email,
-      "Next Pizza / 📝 Подтверждение регистрации",
+      "Sport Shop / 📝 Подтверждение регистрации",
       VerificationUserTemplate({
         code,
       })
