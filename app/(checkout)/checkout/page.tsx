@@ -50,7 +50,7 @@ export default function CheckoutPage() {
     if (session) {
       fetchUserInfo();
     }
-  }, [session]);
+  }, [form, session]); // form
 
   const onSubmit = async (data: checkoutFormValues) => {
     try {
