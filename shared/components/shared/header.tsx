@@ -39,7 +39,7 @@ export const Header: React.FC<Props> = ({
     if (searchParams.has("verified")) {
       toastMessage = "Почта успешно подтверждена!";
     }
-
+// изменил
     if (toastMessage) {
       setTimeout(() => {
         router.replace("/");
@@ -48,7 +48,7 @@ export const Header: React.FC<Props> = ({
         });
       }, 1000);
     }
-  }, []);
+  }, [router, searchParams]);
 
   return (
     <header className={cn("border-b", className)}>

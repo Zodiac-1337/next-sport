@@ -62,7 +62,7 @@ export const useFilters = (): ReturnProps => {
       [name]: value,
     }));
   };
-
+  // изменил:
   return React.useMemo(
     () => ({
       sizes,
@@ -74,6 +74,14 @@ export const useFilters = (): ReturnProps => {
       setSizes: toggleSizes,
       setSelectedIngredients: toggleIngredients,
     }),
-    [sizes, pizzaTypes, selectedIngredients, prices]
+    [
+      sizes,
+      pizzaTypes,
+      selectedIngredients,
+      prices,
+      togglePizzaTypes,
+      toggleSizes,
+      toggleIngredients,
+    ]
   );
 };
