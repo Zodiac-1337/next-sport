@@ -159,33 +159,21 @@ export const products = [
     categoryId: 4,
   },
   {
-    name: "Ирландский Капучино",
+    name: "Прикормочный кораблик",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61999EBDA59C10E216430A6093.webp",
+      "/assets/products/fishing/fish2.png",
     categoryId: 5,
   },
   {
-    name: "Кофе Карамельный капучино",
+    name: "Катушка спиннинговая безынерционная",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61AED6B6D4BFDAD4E58D76CF56.webp",
+      "/assets/products/fishing/fish3.png",
     categoryId: 5,
   },
   {
-    name: "Кофе Кокосовый латте",
+    name: "Катушка безынерционная Namazu",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61B19FA07090EE88B0ED347F42.webp",
-    categoryId: 5,
-  },
-  {
-    name: "Кофе Американо",
-    imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61B044583596548A59078BBD33.webp",
-    categoryId: 5,
-  },
-  {
-    name: "Кофе Латте",
-    imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61B0C26A3F85D97A78FEEE00AD.webp",
+      "/assets/products/fishing/fish4.png",
     categoryId: 5,
   },
 ];
